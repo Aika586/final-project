@@ -4,7 +4,7 @@ class LoginPage {
     get inputPassword() { return $("//input[@id='password']"); }
     get btnLogin() { return $("//input[@id='login-button']"); }
     get errorMessage() { return $("//h3[@data-test='error']"); }
-    get pageTitle() { return $("//div[@class='app_logo']"); }
+    // get pageTitle() { return $("//div[@class='app_logo']"); }
 
     async open() {
         await browser.url('/');
